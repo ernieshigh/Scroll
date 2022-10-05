@@ -1,7 +1,7 @@
 		const html = document.documentElement; 
 		const canvas = document.getElementById("high-scroll");
 		const context = canvas.getContext("2d");
-		const main =  document.querySelector("main");
+		const main =  document.querySelector(".scroll-container");
 		const elem = document.querySelector(".afterScroll");
 		const mainHeight = main.offsetHeight;
 		
